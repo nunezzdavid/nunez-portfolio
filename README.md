@@ -38,6 +38,7 @@ This assignment is a from scratch landing page creator for myself. I will be bui
 - https://www.freecodecamp.org/news/html-starter-template-a-basic-html5-boilerplate-for-index-html/
 - https://developer.mozilla.org/en-US/docs/Web/HTML
 - https://developer.mozilla.org/en-US/docs/Web/CSS
+- https://color.adobe.com/create/color-wheel
 
 ## License
 
