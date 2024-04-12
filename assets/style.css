@@ -7,6 +7,14 @@
 
 body {
     background: #3d8ab1;
+    color: azure;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .header {
@@ -15,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #3e525c;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +34,11 @@ body {
     font-size: 40px;
     color: azure;
     font-weight: 700;
+    transition: .3s;
+}
+
+.logo:hover {
+    color: black;
 }
 
 .navbar a {
@@ -38,4 +51,33 @@ body {
 
 .navbar a:hover {
     color: black;
+}
+
+.About-Me {
+    height: 975px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.About-Me-main {
+    max-width: max-content;
+}
+
+.About-Me-main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.About-Me-main h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3e525c;
+}
+
+.About-Me-main p {
+    font-size: 18px;
+    margin: 20px 0 40px;
 }
