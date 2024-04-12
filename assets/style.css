@@ -17,6 +17,14 @@ figure img {
     width: 80%;
 }
 
+figureTwo a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: min-content;
+    width: 95%;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -53,6 +61,32 @@ figure img {
     color: black;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #3d8ab1;
+    background-color: #3d8ab1;
+}
+
+.columnTwo {
+    flex: 1;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    background-color: #3e525c;
+}
+
+.columnThree {
+    flex: 1;
+    padding-bottom: 30px;
+    background-color: #3e525c;
+}
+
 .About-Me {
     height: 975px;
     display: flex;
@@ -80,4 +114,26 @@ figure img {
 .About-Me-main p {
     font-size: 18px;
     margin: 20px 0 40px;
+}
+
+.Work-main h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Work-under {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.Contact-Me-main h1 {
+    text-align: center;
+}
+
+.Contact-Me-main h4 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
 }
