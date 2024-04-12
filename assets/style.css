@@ -26,7 +26,7 @@ figureTwo a img {
 }
 
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -64,6 +64,7 @@ figureTwo a img {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .column {
@@ -88,7 +89,6 @@ figureTwo a img {
 }
 
 .About-Me {
-    height: 975px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +98,7 @@ figureTwo a img {
 
 .About-Me-main {
     max-width: max-content;
+    max-height: fit-content;
 }
 
 .About-Me-main h1 {
