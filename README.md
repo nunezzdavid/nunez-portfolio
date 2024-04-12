@@ -21,8 +21,8 @@ This assignment is a from scratch landing page creator for myself. I will be bui
 
 ## Links
 
-- Deployed website: 
-- Deployed GitHub: 
+- Deployed website: https://nunezzdavid.github.io/nunez-portfolio/
+- Deployed GitHub: https://github.com/nunezzdavid/nunez-portfolio
 
 ## Tasks
 
