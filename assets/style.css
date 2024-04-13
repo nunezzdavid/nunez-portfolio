@@ -126,7 +126,10 @@ figureTwo a img {
 .Work-under {
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+}
+
+.project {
+    flex: 1;
 }
 
 .Contact-Me-main h1 {
@@ -137,4 +140,17 @@ figureTwo a img {
     display: flex;
     justify-content: center;
     align-items: stretch;
+}
+
+.sent {
+    font-size: 20px;
+}
+
+.sent a {
+    color: azure;
+    transition: .3s;
+}
+
+.sent a:hover {
+    color: black;
 }
