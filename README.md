@@ -17,7 +17,7 @@ This assignment is a from scratch landing page creator for myself. I will be bui
 
 ## Mock-Up
 
-![Alt text](assets/images/) 
+![Alt text](assets/images/David%20Nunez's%20Portfolio.gif) 
 
 ## Links
 
